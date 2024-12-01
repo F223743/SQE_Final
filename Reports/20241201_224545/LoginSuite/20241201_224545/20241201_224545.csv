@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginSuite,Chrome 131.0.0.0,,,01-12-2024 22:46:43,01-12-2024 22:50:45,4m - 1.839s,FAILED
+,,,,,,,
+Test Cases/LoginTest,Chrome 131.0.0.0,,,01-12-2024 22:50:01,01-12-2024 22:50:45,43.522s,FAILED
+"openBrowser("""")",Chrome 131.0.0.0,,,01-12-2024 22:50:01,01-12-2024 22:50:14,12.866s,PASSED
+"navigateToUrl(""https://demo.nopcommerce.com/"")",Chrome 131.0.0.0,,,01-12-2024 22:50:14,01-12-2024 22:50:19,5.038s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store/a_Log in""))",Chrome 131.0.0.0,,,01-12-2024 22:50:19,01-12-2024 22:50:23,3.643s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,01-12-2024 22:50:23,01-12-2024 22:50:23,0.537s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,01-12-2024 22:50:23,01-12-2024 22:50:26,2.284s,PASSED
+"navigateToUrl(""https://demo.nopcommerce.com/"")",Chrome 131.0.0.0,,,01-12-2024 22:50:26,01-12-2024 22:50:28,2.092s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store/a_Log in""))",Chrome 131.0.0.0,,,01-12-2024 22:50:28,01-12-2024 22:50:31,3.363s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,01-12-2024 22:50:31,01-12-2024 22:50:32,0.996s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,01-12-2024 22:50:32,01-12-2024 22:50:35,2.989s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 131.0.0.0,,,01-12-2024 22:50:35,01-12-2024 22:50:39,4.258s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 131.0.0.0,,,01-12-2024 22:50:39,01-12-2024 22:50:40,1.096s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""))",Chrome 131.0.0.0,,,01-12-2024 22:50:40,01-12-2024 22:50:41,0.812s,PASSED
+"doubleClick(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 131.0.0.0,,,01-12-2024 22:50:41,01-12-2024 22:50:42,0.541s,PASSED
+"doubleClick(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 131.0.0.0,,,01-12-2024 22:50:42,01-12-2024 22:50:42,0.599s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 131.0.0.0,,,01-12-2024 22:50:42,01-12-2024 22:50:43,0.473s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 131.0.0.0,,,01-12-2024 22:50:43,01-12-2024 22:50:44,0.917s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1""), ""ThisIsNotAPassword"")",Chrome 131.0.0.0,,,01-12-2024 22:50:44,01-12-2024 22:50:45,0.956s,FAILED
